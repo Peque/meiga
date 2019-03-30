@@ -105,7 +105,7 @@ static void setup_gpio(void)
  *   less than the compare register contents and inactive otherwise.
  * - Reset output compare value (set it to 0).
  * - Enable channels 1, 2, 3 and 4 outputs.
- * - Enable outputs in the break subsystem.
+ * - Enable outputs in the break subsystem (required on an advanced timer).
  * - Enable timer counter.
  *
  * @see Reference manual (RM0090) "Advanced-control timers (TIM1 and TIM8)"
