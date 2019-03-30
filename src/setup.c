@@ -169,8 +169,6 @@ static void setup_speaker(void)
 
 	timer_disable_oc_output(TIM11, TIM_OC1);
 	timer_set_oc_mode(TIM11, TIM_OC1, TIM_OCM_PWM1);
-
-	timer_enable_break_main_output(TIM11);
 }
 
 /**
