@@ -9,6 +9,7 @@
 #include "setup.h"
 
 uint32_t read_cycle_counter(void);
+float get_battery_voltage(void);
 void speaker_on(float hz);
 void speaker_off(void);
 
