@@ -4,6 +4,7 @@
 #include <stdint.h>
 
 #include <libopencm3/cm3/dwt.h>
+#include <libopencm3/stm32/adc.h>
 #include <libopencm3/stm32/timer.h>
 
 #include "setup.h"
