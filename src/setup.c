@@ -325,7 +325,6 @@ void setup_spi_low_speed(void)
  * - Set output compare mode to PWM1 (output is active when the counter is
  *   less than the compare register contents and inactive otherwise.
  * - Disable output compare output (speaker is off by default).
- * - Enable outputs in the break subsystem.
  *
  * @see Reference manual (RM0090) "General-purpose timers (TIM9 to TIM14)"
  * and in particular the "PWM mode" section.
